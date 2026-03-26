@@ -1,0 +1,17 @@
+# Terraform files
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Sensitive keys
+*.pem
+*.key
+terra-key-ec2
+terra-key-ec2.pub
+
+# Optional (can keep if you want)
+.terraform.lock.hcl
+
+# OS files
+.DS_Store
+Thumbs.db
